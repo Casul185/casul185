@@ -1,4 +1,25 @@
-## Hi there 👋
+## Gabriel Baker
+
+Fiber optic technician by day (backbone/FTTH fusion splicing), infrastructure
+builder by night. I run a self-hosted lab — five Linux servers, a UniFi
+network, and a custom FastAPI control hub — and I build zero-dependency
+Windows tooling in pure Python because installing packages to solve a
+problem is admitting defeat.
+
+**Things here:**
+- **foundry-warden** — game-mode daemon that detects running Steam games and
+  throttles background processes (EcoQoS + process suspension), with
+  before/after benchmarking to prove the gain
+- **frameseer** — game performance advisor: inventories your hardware,
+  pulls PCGamingWiki data, and captures real frametimes via PresentMon
+- **amd-vram-detection** — the registry fix for Python reading AMD VRAM
+  wrong (the WMI 4GB cap problem)
+
+Everything is stdlib + ctypes only. MIT licensed. Issues and PRs welcome.
+
+**Stack:** Python · FastAPI · Docker · Linux · UniFi · SQLite · Bash
+
+If something here saved you time: [ko-fi.com/casul185](https://ko-fi.com/casul185) — donations go straight into the hardware upgrade fund.
 
 <!--
 **Casul185/casul185** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
